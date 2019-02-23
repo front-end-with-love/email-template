@@ -1,0 +1,243 @@
+// Layout
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-size-adjust: auto;
+    text-rendering: optimizeLegibility;
+}
+
+.outer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.middle{
+
+    .outer {
+        background-color: #ffffff;
+        border-radius: 4px;
+        box-shadow: -1px -1px 6px 1px rgba(#000, .15);
+    }
+}
+
+.header,
+.middle,
+.footer {
+    margin: 10px 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+    table-layout: fixed;
+}
+
+.padding-bottom{
+    height: 10px;
+    line-height: 10px;
+    font-size: 8px;
+}
+
+.padding-bottom-big{
+    height: 15px;
+    line-height: 15px;
+    font-size: 8px;
+}
+
+// Basic Styles
+a {
+    color: #0077cc !important;
+    text-decoration: underline;
+
+    &:hover{}
+
+    &:active{}
+
+    &:visited{}
+
+    span{
+        color: #0077cc;
+    }  
+
+    img{
+        border: 0;
+        display: block;
+        outline: none;
+
+        a &{
+            text-decoration: none;
+        }
+    }
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+
+    tr{
+        border: none;
+
+        td,
+        th{
+            border: none;
+        }
+    }
+}
+
+.h1 {
+    font-family: $defaultFont;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -webkit-text-size-adjust:none;
+}
+
+.h2 {
+    font-family: $defaultFont;
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+    line-height: 24px;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -webkit-text-size-adjust:none;
+}
+
+p,
+.paragraph {
+    font-family: $defaultFont;
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -webkit-text-size-adjust:none;
+
+    b{
+        font-weight: bold;
+    }
+
+    i{
+        font-style: italic;
+    }
+}
+
+ul{
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+
+    li{
+    }
+}
+
+ol{
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+
+    li{
+    }
+}
+
+.quote {
+    font-style: italic;
+    color: #999999;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.cover {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+
+    img{
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        height: auto;
+        display: block;
+        border-radius: 4px 4px 0 0;
+    }
+}
+
+// Buttons
+.button {
+    width:auto !important;
+    margin: auto;
+
+    td{
+        padding: 0;
+    }
+}
+
+.button-link {
+    font-family: $defaultFont;
+    font-size: 14px;
+    color:#ffffff !important;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #333333;
+    border:#333333 10px solid;
+    padding:0 10px;
+    border-radius: 25px;
+    display: inline-block;
+
+    span{
+        color: #fff;
+    }
+}
